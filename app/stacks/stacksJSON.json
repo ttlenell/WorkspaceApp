@@ -1,0 +1,7 @@
+{
+  "tabs": [
+    { "name": "Home", "icon": "home", "stack": "home", "icon": "home-outline" },
+    { "name": "Newsfeed", "stack": "about", "icon": "calendar-outline" },
+    { "name": "Settings", "stack": "settings", "icon": "man-outline" }
+  ]
+}

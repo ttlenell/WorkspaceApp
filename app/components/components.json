@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Button",
+    "type": "Component",
+    "props": {
+      "text": "I am a button",
+      "classes": { "buttonText": "text-black", "bgColor": "bg-blue-200" }
+    }
+  },
+  {
+    "name": "Button",
+    "type": "Component",
+    "props": {
+      "text": "I am also a button",
+      "classes": { "buttonText": "text-white", "bgColor": "bg-red-300" }
+    }
+  },
+  {
+    "name": "Button",
+    "type": "Component",
+    "props": {
+      "text": "I am also a button again",
+      "classes": { "buttonText": "text-black", "bgColor": "bg-green-400" }
+    }
+  },
+  {
+    "name": "Button",
+    "type": "Component",
+    "props": {
+      "text": "I am also a button again",
+      "classes": { "buttonText": "text-black", "bgColor": "bg-yellow-500" }
+    }
+  },
+  {
+    "name": "Button",
+    "type": "Component",
+    "props": {
+      "text": "I am also a button again",
+      "classes": { "buttonText": "text-white", "bgColor": "bg-purple-600" }
+    }
+  }
+]
