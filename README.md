@@ -1,0 +1,2 @@
+# WorkspaceApp
+Whitelabel workspace app
