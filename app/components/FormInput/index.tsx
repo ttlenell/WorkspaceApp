@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TextInput } from "react-native";
 
 const FormInput = (props) => {
   return (
-    <View>
+    <View style={{ width: 300, padding: 10 }}>
       <TextInput style={styles.inputStyle} {...props} />
     </View>
   );

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 
 // packages
 import { NavigationContainer } from "@react-navigation/native";
+
+// context
+import { UserProvider } from "./app/context/UserContext";
 
 // stacks
 import BottomTabNavigation from "./app/stacks/BottomTabStack";
@@ -9,10 +12,12 @@ import AppStack from "./app/stacks/AppStack/";
 
 const App = () => {
   return (
-    <NavigationContainer>
-      {/* <BottomTabNavigation /> */}
-      <AppStack />
-    </NavigationContainer>
+    <UserProvider>
+      <NavigationContainer>
+        {/* <BottomTabNavigation /> */}
+        <AppStack />
+      </NavigationContainer>
+    </UserProvider>
   );
 };
 

@@ -1,10 +1,11 @@
+import ContentNavigator from "../../containers/ContentNavigator";
 import React from "react";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 
 const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>hej homescreen</Text>
+      <ContentNavigator />
     </SafeAreaView>
   );
 };

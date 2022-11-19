@@ -7,8 +7,8 @@ module.exports = function (api) {
       [
         "module-resolver",
         {
-          root: ["./src"],
-          paths: ["./src"],
+          root: ["./app"],
+          paths: ["./app"],
           extensions: [
             ".js",
             ".json",
